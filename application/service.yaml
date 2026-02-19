@@ -16,7 +16,8 @@ spec:
 apiVersion: discovery.k8s.io/v1
 kind: EndpointSlice
 metadata:
-  name: wil-playground
+  name: my-app-service
+  namespace: dev
   labels:
     kubernetes.io/service-name: example
 addressType: IPv4
